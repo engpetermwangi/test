@@ -9,6 +9,7 @@ install:
 
 script:
   - nosetests -v test.py
+  - pytest --cov=app
 
 after_success:
   - coveralls
