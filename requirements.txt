@@ -1,1 +1,1 @@
-pytest
+coveralls==1.5.1
