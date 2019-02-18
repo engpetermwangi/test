@@ -8,8 +8,7 @@ install:
   - pip install coveralls
 
 script:
-  - nosetests -v test.py
-  - coveralls -v --cov coveralls
+  - nosetests -v test_politico.py
 
 after_success:
   - coveralls
